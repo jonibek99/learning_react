@@ -1,3 +1,4 @@
+import Footer from "./components/Footer"
 import Header from "./components/Header"
 import Section from "./components/section"
 import Skills from "./components/skils_qismi"
@@ -11,6 +12,7 @@ const Navigation = () => {
     <Son_qismi/>
     <Telefon_qismi/>
     <Skills/>
+    <Footer/>
     </>
     )
 }
