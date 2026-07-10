@@ -1,0 +1,39 @@
+.body{
+    width: 70%;
+    min-height: 600px;
+    margin-top: 10px;
+    padding: 50px;
+
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;   /* Muhim */
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.body h1{
+    width: 100%;
+    color: #5E3AEE;
+    font-size: 40px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.ichki_qismi{
+    width: 100%;
+    max-width: 1000px;
+    background-color: white;
+    padding: 40px;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px 80px;
+}
+
+.ichki_qismi p{
+    margin: 0;
+    font-size: 28px;
+    font-weight: 500;
+    color: black;
+}

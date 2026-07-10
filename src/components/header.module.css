@@ -1,0 +1,37 @@
+*{
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+.asosiy_qismi{
+    height: 1000px;
+    width: 100%;
+    background-color: violet;
+}
+.bosh_qismi {
+    width: 70%;
+    height: 60px;
+    background-color:white;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    padding: 0 20px;
+    border-radius: 5px;
+}
+
+.bosh_qismi ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+.bosh_qismi h1 {
+    font-size: 30px; 
+    margin-left: -10px;
+}

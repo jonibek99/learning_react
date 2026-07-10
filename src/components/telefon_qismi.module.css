@@ -1,0 +1,59 @@
+.body {
+    width: 70%;
+    min-height: 600px;
+    background-color: #10111F;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 70px 100px;
+    box-sizing: border-box;
+}
+
+.left {
+    width: 50%;
+}
+
+.huynacha {
+    width: 220px;
+    height: 18px;
+    background-color: #6A3DF0;
+    margin-bottom: 25px;
+    border-radius: 3px;
+}
+
+.left h1 {
+    color: white;
+    font-size: 60px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.left p {
+    color: white;
+    font-size: 28px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.left h2 {
+    color: #6A3DF0;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.right {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+}
+
+.right img {
+    width: 550px;
+    transform: rotate(7deg);
+    height: 450px;
+}
+
