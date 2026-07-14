@@ -1,19 +1,23 @@
-import Footer from "./components/Footer"
+import { BrowserRouter, Route, Routes } from "react-router-dom"
 import Header from "./components/Header"
-import Section from "./components/section"
-import Skills from "./components/skils_qismi"
-import Son_qismi from "./components/son_qismi"
-import Telefon_qismi from "./components/telefon_qismi"
+import Home from'./components/pages/home'
+import About from './components/pages/about'
+import Footer from "./components/footer"
+import Last from "./components/pages/Last"
+
+
 
 const Navigation = () => {
-    return ( <>
-    <Header/>
-    <Section/>
-    <Son_qismi/>
-    <Telefon_qismi/>
-    <Skills/>
-    <Footer/>
-    </>
+    return (
+        <BrowserRouter>
+            <Header/>
+            <Routes>
+                <Route path="/" element={<Home/>} />
+                <Route path="/about" element={<About />} />
+                <Route path="/last" element={<Last/>}/>
+            </Routes>
+            <Footer/>
+        </BrowserRouter>
     )
 }
 

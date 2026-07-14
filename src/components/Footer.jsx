@@ -1,33 +1,59 @@
-import footer from "./footer.module.css";
-import samalyot from "./img/samalyot.png";
+import footer_qismi from './footer.module.css'
+import {
+  FaGooglePlay,
+  FaApple,
+  FaChevronUp
+} from "react-icons/fa";
+import { FaTelegramPlane, FaInstagram, FaFacebookF } from "react-icons/fa";
+const Footer=()=>{
+    return(
+        <div className={footer_qismi.asosiy_class}>
+            <h1>🗑️BirMakon</h1>
+            <div className={footer_qismi.harid_qismi}>
+                <h1>Покупателям</h1>
+                <p>lorem ipsum</p>
+                <p>lorem ipsum</p>
+                <p>lorem ipsum</p>
+                <p>lorem ipsum</p>
+                <p>lorem ipsum</p>
+                <p>lorem ipsum</p>
+                <p>lorem ipsum</p>
+                </div>
+            <div className={footer_qismi.company_qismi}>
+                <h1>Компания</h1>
+                <p>lorem ipsum</p>
+                <p>lorem ipsum</p>
+                <p>lorem ipsum</p>
+                <p>lorem ipsum</p>
 
-const Footer = () => {
-  return (
-    <div className={footer.body}>
+            </div>
+            <div className={footer_qismi.social_qismi}>
+                <h1>Мы в соцсетях</h1>
+                 <div className={footer_qismi.social}>
+                    <FaTelegramPlane />
+                    <FaInstagram />
+                    <FaFacebookF />
+                    </div>
+            </div>
+<div className={footer_qismi.mobile_qismi}>
+    <h1>Мобильные устройства</h1>
 
-      <div className={footer.left}>
-        <h1>Contact</h1>
+    <button className={footer_qismi.store}>
+        <FaGooglePlay />
+        Google Play
+    </button>
 
-        <p>
-          Want a website for your brand and business?<br />
-          I design what you desire....
-        </p>
+    <button className={footer_qismi.store}>
+        <FaApple />
+        App Store
+    </button>
 
-        <img src={samalyot} alt="Paper plane" />
-      </div>
-      <div className={footer.right}>
-        <label>Name</label>
-        <input type="text" />
-
-        <label>Email</label>
-        <input type="email" />
-        <label >Message</label>
-        <textarea rows='6'></textarea>
-        <button>Submit</button>
-
-      </div>
+    <button className={footer_qismi.up_btn}>
+        <FaChevronUp />
+    </button>
+</div>
     </div>
-  );
-};
+    )
+}
 
-export default Footer;
+export default Footer

@@ -1,37 +1,52 @@
 *{
-    margin: auto;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.asosiy_qismi{
-    height: 1000px;
-    width: 100%;
-    background-color: violet;
-}
-.bosh_qismi {
-    width: 70%;
-    height: 60px;
-    background-color:white;
-    margin-top: 10px;
+
+.bosh_qismi{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    width: 60%;
+    height: 90px;
+    background-color: orange;
+    margin-top: 20px;
+    border-radius: 3px;
+}
+.bosh_qismi .input_qismi{
+    width: 1000px;
+    height: 40px;
+    display: flex;
+    align-items: center; 
+     justify-content: space-around;
+    gap: 40px;
     margin-top: 10px;
-    padding: 0 20px;
-    border-radius: 5px;
+    margin-left: 20px;
 }
 
-.bosh_qismi ul {
-    display: flex;
-    gap: 30px;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    
-    
+.input_qismi h1{
+    white-space: nowrap;
+    color: rgb(114, 111, 111);
+    margin: 0; 
 }
 
-.bosh_qismi h1 {
-    font-size: 30px; 
-    margin-left: -10px;
+.input_qismi input{
+    width: 800px;
+    align-self: center;
+}
+.input_qismi a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+.input_qismi button{
+    width: 30px;
+    height: 25px;
+    cursor: pointer;
+}
+
+Link{
+    text-decoration: none;
 }
