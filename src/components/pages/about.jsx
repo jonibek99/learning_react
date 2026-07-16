@@ -1,10 +1,10 @@
+import Main_About_part from "./About_Complements/main"
+
 const About=()=>{
     return (
-        <div>
-            <h1>
-                About Page
-            </h1>
-        </div>
+        <>
+        <Main_About_part/>
+        </>
     )
 }
 
